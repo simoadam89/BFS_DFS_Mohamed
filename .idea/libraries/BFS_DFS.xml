@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BFS_DFS">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/JAR/BFS_DFS.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
