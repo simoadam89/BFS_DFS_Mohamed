@@ -1,0 +1,44 @@
+.button {
+ -fx-background-color: #008CBA;
+ -fx-text-fill: white;
+ -fx-font-size: 8pt;
+ -fx-font-family: "Verdana";
+}
+
+.button:hover {
+ -fx-background-color: white;
+ -fx-text-fill: #008CBA;
+ -fx-effect: dropshadow( one-pass-box , #C1C1C1 , 8 , 0.0 , 1 , 5 );
+}
+
+.combo-box .list-cell
+{
+    -fx-background: white;
+    /*-fx-background-color: transparent; */
+    -fx-text-fill: -fx-text-base-color;
+    -fx-padding: 3 0 2 7;
+    -fx-cell-size: 1.6em;
+    -fx-border-color: #FFFFFF;
+}
+
+
+.combo-box-popup .list-view
+{
+    -fx-background-color: white, white;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( one-pass-box , #C1C1C1 , 8 , 0.0 , 1 , 5 );
+}
+
+.combo-box-base
+{
+    -fx-background-color: white, white, white, white;
+    -fx-font-family: "Verdana";
+   /* -fx-background-radius: 5, 5, 0, 0; */
+}
+
+.combo-box-base:focused {
+   -fx-border-color: #008CBA;
+   -fx-border-width: 1pt;
+   -fx-border-insets: 0;
+   -fx-border-style: solid outside;
+}

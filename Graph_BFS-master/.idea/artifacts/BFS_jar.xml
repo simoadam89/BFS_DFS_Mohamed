@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BFS:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BFS_jar</output-path>
+    <root id="archive" name="BFS.jar">
+      <element id="module-output" name="BFS" />
+    </root>
+  </artifact>
+</component>
